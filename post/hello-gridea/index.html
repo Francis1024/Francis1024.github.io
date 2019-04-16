@@ -4,7 +4,7 @@
 <meta name="description" content="" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Hello Gridea | 咚咚宇宙</title>
-<link rel="shortcut icon" href="https://wanquanojbk.com/favicon.ico?v=1555401416450">
+<link rel="shortcut icon" href="https://wanquanojbk.com/favicon.ico?v=1555401763892">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 <link rel="stylesheet" href="https://wanquanojbk.com/styles/main.css">
 
@@ -18,7 +18,7 @@
       <div class="main-content">
         <div class="site-header">
   <a href="https://wanquanojbk.com">
-  <img class="avatar" src="https://wanquanojbk.com/images/avatar.png?v=1555401416450" alt="">
+  <img class="avatar" src="https://wanquanojbk.com/images/avatar.png?v=1555401763892" alt="">
   </a>
   <h1 class="site-title">
     咚咚宇宙
@@ -119,25 +119,28 @@
 
         
           
+            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
 
-          
-            <link rel="stylesheet" href="https://unpkg.com/disqusjs@1.1/dist/disqusjs.css">
-<script src="https://unpkg.com/disqusjs@1.1/dist/disqus.js"></script>
-
-<div id="disqus_thread"></div>
+<div id="gitalk-container"></div>
 
 <script>
 
-var options = {
-  shortname: '咚咚宇宙',
-  apikey: '6IcORiKQjL1Rn7lumbZVWJhv9EtZeT4DgiybkkWUZnY7VNynAUm3o4FGmD1LaLhK',
-}
-if ('') {
-  options.api = ''
-}
-var dsqjs = new DisqusJS(options)
+  var gitalk = new Gitalk({
+    clientID: '9e37f6b53bd712726c04',
+    clientSecret: '4f3c6dafae3e545442843b5f9057e3f86894d8e8',
+    repo: 'https://github.com/Francis1024/francis1024.github.io',
+    owner: 'Francis1024',
+    admin: ['Francis1024'],
+    id: location.pathname,      // Ensure uniqueness and length less than 50
+    distractionFreeMode: false  // Facebook-like distraction free mode
+  })
+
+  gitalk.render('gitalk-container')
 
 </script>
+
+          
 
           
         
