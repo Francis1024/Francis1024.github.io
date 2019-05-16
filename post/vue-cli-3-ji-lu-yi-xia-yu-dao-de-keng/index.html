@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>关于 | 咚咚宇宙</title>
+<title>Vue-Cli 3 记录一下遇到的坑 | 咚咚宇宙</title>
 <meta name="description" content="">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -97,18 +97,67 @@
       <div class="main-container">
         <div class="content-container" data-aos="fade-up">
           <div class="post-detail">
-            <h2 class="post-title">关于</h2>
+            <h2 class="post-title">Vue-Cli 3 记录一下遇到的坑</h2>
             <div class="post-date">2019-05-16</div>
             
+              <div class="feature-container" style="background-image: url('https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=2459854756,3883213966&amp;fm=26&amp;gp=0.jpg')">
+              </div>
+            
             <div class="post-content">
-              <p>我是咚咚，一个菜鸡程序员😁</p>
+              <p>记录下在Vue-Cli 3 中遇到的坑</p>
+<!-- more -->
+<h3 id="1在mac-os-系统问题">1.在Mac os 系统问题</h3>
+<h4 id="11-error-eacces-permission-denied-access-usrlocallibnode_modules">1.1-Error: EACCES: permission denied, access '/usr/local/lib/node_modules</h4>
+<p><img src="https://ws3.sinaimg.cn/large/006tNc79gy1g334mn8m0zj317m0l27af.jpg" alt="image-20190121103347667"></p>
+<p><strong>原因</strong>：执行命令行命令时没有获得管理员权限</p>
+<p><strong>解决方案</strong>：在命令行前面添加sudo获取管理员权限，输入管理员密码就行</p>
+<p><strong>例如</strong>：</p>
+<ul>
+<li>原来的是:  npm install -g vue-cli</li>
+<li>应该该为：sudo npm install -g vue-cli   再输入密码就行</li>
+</ul>
+<h3 id="2eslint-一系列问题">2.ESlint 一系列问题</h3>
+<h4 id="21-consolelog-报错">2.1-console.log 报错</h4>
+<p><strong>解决方式：</strong></p>
+<ul>
+<li>在ESlint 的规则中加上以下这个就不会报错了</li>
+</ul>
+<pre><code class="language-json">&quot;rules&quot;: {
+    &quot;no-console&quot;: &quot;off&quot;,
+}
+</code></pre>
+<h4 id="22-debugger-报错">2.2-debugger 报错</h4>
+<p><strong>解决方式：</strong></p>
+<ul>
+<li>
+<p>在Eslint 规则中加上一下这个就不会报错了</p>
+<pre><code class="language-json">&quot;rules&quot;: {
+   &quot;no-debugger&quot;: &quot;off&quot;
+}
+</code></pre>
+</li>
+</ul>
+<h3 id="3项目打包问题">3.项目打包问题</h3>
+<h4 id="31-路径报错">3.1-路径报错</h4>
+<p><strong>在vue.config.js 中重写打包后的基础路径为当前目录</strong></p>
+<pre><code class="language-js">module.exports = {
+    //...
+  	//设置基础路径
+  baseUrl:&quot;./&quot;
+		//...
+}
+</code></pre>
 
             </div>
             
               <div class="tag-container">
                 
-                  <a href="https://wanquanojbk.com/tag/KBkhavsy7" class="tag">
-                    生活
+                  <a href="https://wanquanojbk.com/tag/6nXB38ddy" class="tag">
+                    Vue
+                  </a>
+                
+                  <a href="https://wanquanojbk.com/tag/QVm5HdEp1" class="tag">
+                    学习
                   </a>
                 
               </div>
