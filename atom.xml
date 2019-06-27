@@ -1,110 +1,23 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" >
-
-<title>Git | 咚咚宇宙</title>
-<meta name="description" content="">
-
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="/Users/hidarioosakai/OneDrive/Documents/Root-Blog/output/favicon.ico?v=1561605564140">
-<link rel="stylesheet" href="/Users/hidarioosakai/OneDrive/Documents/Root-Blog/output/styles/main.css">
-
-
-  
-    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
-  
-
-  
-
-
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-
-<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
-
-
-  </head>
-  <body>
-    <div id="app" class="main">
-
-      <div class="sidebar" :class="{ 'full-height': menuVisible }">
-  <div class="top-container" data-aos="fade-right">
-    <div class="top-header-container">
-      <a class="site-title-container" href="/Users/hidarioosakai/OneDrive/Documents/Root-Blog/output">
-        <img src="/Users/hidarioosakai/OneDrive/Documents/Root-Blog/output/images/avatar.png?v=1561605564140" class="site-logo">
-        <h1 class="site-title">咚咚宇宙</h1>
-      </a>
-      <div class="menu-btn" @click="menuVisible = !menuVisible">
-        <div class="line"></div>
-      </div>
-    </div>
-    <div>
-      
-        
-          <a href="/" class="site-nav">
-            首页
-          </a>
-        
-      
-        
-          <a href="/archives" class="site-nav">
-            归档
-          </a>
-        
-      
-        
-          <a href="/tags" class="site-nav">
-            标签
-          </a>
-        
-      
-        
-          <a href="/post/about" class="site-nav">
-            关于
-          </a>
-        
-      
-    </div>
-  </div>
-  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
-    <div class="social-container">
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    </div>
-    <div class="site-description">
-      
-    </div>
-    <div class="site-footer">
-      by <a href="https://github.com/Francis1024" target="_blank">咚咚宇宙</a>
-    </div>
-  </div>
-</div>
-
-
-      <div class="main-container">
-        <div class="content-container" data-aos="fade-up">
-          <div class="post-detail">
-            <h2 class="post-title">Git</h2>
-            <div class="post-date">2019-05-16</div>
-            
-              <div class="feature-container" style="background-image: url('https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1557998094881&amp;di=134199d3da7dfc5814d1776515edfe8b&amp;imgtype=0&amp;src=http%3A%2F%2Fimage.mamicode.com%2Finfo%2F201807%2F20180720154704366185.gif')">
-              </div>
-            
-            <div class="post-content">
-              <p>Git 的学习</p>
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>/Users/hidarioosakai/OneDrive/Documents/Root-Blog/output</id>
+    <title>咚咚宇宙</title>
+    <updated>2019-06-27T03:28:18.160Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="/Users/hidarioosakai/OneDrive/Documents/Root-Blog/output"/>
+    <link rel="self" href="/Users/hidarioosakai/OneDrive/Documents/Root-Blog/output/atom.xml"/>
+    <logo>/Users/hidarioosakai/OneDrive/Documents/Root-Blog/output/images/avatar.png</logo>
+    <icon>/Users/hidarioosakai/OneDrive/Documents/Root-Blog/output/favicon.ico</icon>
+    <rights>All rights reserved 2019, 咚咚宇宙</rights>
+    <entry>
+        <title type="html"><![CDATA[Git]]></title>
+        <id>/Users/hidarioosakai/OneDrive/Documents/Root-Blog/output/post/git/index.html</id>
+        <link href="/Users/hidarioosakai/OneDrive/Documents/Root-Blog/output/post/git/index.html">
+        </link>
+        <updated>2019-05-16T06:25:33.000Z</updated>
+        <summary type="html"><![CDATA[<p>Git 的学习</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>Git 的学习</p>
 <!-- more -->
 <h1 id="1-git">1. git</h1>
 <h2 id="11-学习目标">1.1. 学习目标</h2>
@@ -865,88 +778,59 @@ git commit -m &quot;dev下开发新功能1.1&quot;
 <p><a href="https://progit.bootcss.com/">Pro Git</a></p>
 <p><a href="https://backlog.com/git-tutorial/cn">猴子都能看懂的git</a></p>
 <p><a href="https://www.cnblogs.com/savorboard/p/bash-guide.html">十分钟掌握bash 命令</a></p>
-
-            </div>
-            
-              <div class="tag-container">
-                
-                  <a href="/Users/hidarioosakai/OneDrive/Documents/Root-Blog/output/tag/b00vN5J3l/index.html" class="tag">
-                    Git
-                  </a>
-                
-                  <a href="/Users/hidarioosakai/OneDrive/Documents/Root-Blog/output/tag/QVm5HdEp1/index.html" class="tag">
-                    学习
-                  </a>
-                
-              </div>
-            
-            
-              <div class="next-post">
-                <div class="next">下一篇</div>
-                <a href="/Users/hidarioosakai/OneDrive/Documents/Root-Blog/output/post/vue-cli-3-ji-lu-yi-xia-yu-dao-de-keng/index.html">
-                  <h3 class="post-title">
-                    Vue-Cli 3 记录一下遇到的坑
-                  </h3>
-                </a>
-              </div>
-            
-
-            
-              
-                <div id="gitalk-container" data-aos="fade-in"></div>
-              
-
-              
-            
-
-          </div>
-
-        </div>
-      </div>
-    </div>
-
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-
-<script type="application/javascript">
-
-AOS.init();
-
-hljs.initHighlightingOnLoad()
-
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
-
-</script>
-
-
-  
-  
-    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-    <script>
-
-      var gitalk = new Gitalk({
-        clientID: '9e37f6b53bd712726c04',
-        clientSecret: '4f3c6dafae3e545442843b5f9057e3f86894d8e8',
-        repo: 'francis1024.github.io',
-        owner: 'Francis1024',
-        admin: ['Francis1024'],
-        id: location.pathname,      // Ensure uniqueness and length less than 50
-        distractionFreeMode: false  // Facebook-like distraction free mode
-      })
-
-      gitalk.render('gitalk-container')
-
-    </script>
-  
-
-  
-
-
-
-
-  </body>
-</html>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vue-Cli 3 记录一下遇到的坑]]></title>
+        <id>/Users/hidarioosakai/OneDrive/Documents/Root-Blog/output/post/vue-cli-3-ji-lu-yi-xia-yu-dao-de-keng/index.html</id>
+        <link href="/Users/hidarioosakai/OneDrive/Documents/Root-Blog/output/post/vue-cli-3-ji-lu-yi-xia-yu-dao-de-keng/index.html">
+        </link>
+        <updated>2019-05-16T06:04:15.000Z</updated>
+        <summary type="html"><![CDATA[<p>记录下在Vue-Cli 3 中遇到的坑</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>记录下在Vue-Cli 3 中遇到的坑</p>
+<!-- more -->
+<h3 id="1在mac-os-系统问题">1.在Mac os 系统问题</h3>
+<h4 id="11-error-eacces-permission-denied-access-usrlocallibnode_modules">1.1-Error: EACCES: permission denied, access '/usr/local/lib/node_modules</h4>
+<p><img src="https://ws3.sinaimg.cn/large/006tNc79gy1g334mn8m0zj317m0l27af.jpg" alt="image-20190121103347667"></p>
+<p><strong>原因</strong>：执行命令行命令时没有获得管理员权限</p>
+<p><strong>解决方案</strong>：在命令行前面添加sudo获取管理员权限，输入管理员密码就行</p>
+<p><strong>例如</strong>：</p>
+<ul>
+<li>原来的是:  npm install -g vue-cli</li>
+<li>应该该为：sudo npm install -g vue-cli   再输入密码就行</li>
+</ul>
+<h3 id="2eslint-一系列问题">2.ESlint 一系列问题</h3>
+<h4 id="21-consolelog-报错">2.1-console.log 报错</h4>
+<p><strong>解决方式：</strong></p>
+<ul>
+<li>在ESlint 的规则中加上以下这个就不会报错了</li>
+</ul>
+<pre><code class="language-json">&quot;rules&quot;: {
+    &quot;no-console&quot;: &quot;off&quot;,
+}
+</code></pre>
+<h4 id="22-debugger-报错">2.2-debugger 报错</h4>
+<p><strong>解决方式：</strong></p>
+<ul>
+<li>
+<p>在Eslint 规则中加上一下这个就不会报错了</p>
+<pre><code class="language-json">&quot;rules&quot;: {
+   &quot;no-debugger&quot;: &quot;off&quot;
+}
+</code></pre>
+</li>
+</ul>
+<h3 id="3项目打包问题">3.项目打包问题</h3>
+<h4 id="31-路径报错">3.1-路径报错</h4>
+<p><strong>在vue.config.js 中重写打包后的基础路径为当前目录</strong></p>
+<pre><code class="language-js">module.exports = {
+    //...
+  	//设置基础路径
+  baseUrl:&quot;./&quot;
+		//...
+}
+</code></pre>
+]]></content>
+    </entry>
+</feed>
