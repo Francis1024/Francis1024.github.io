@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>/Users/hidarioosakai/OneDrive/Documents/Root-Blog/output</id>
+    <id>https://wanquanojbk.com</id>
     <title>咚咚宇宙</title>
-    <updated>2019-06-27T03:28:18.160Z</updated>
+    <updated>2019-06-27T03:28:34.628Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="/Users/hidarioosakai/OneDrive/Documents/Root-Blog/output"/>
-    <link rel="self" href="/Users/hidarioosakai/OneDrive/Documents/Root-Blog/output/atom.xml"/>
-    <logo>/Users/hidarioosakai/OneDrive/Documents/Root-Blog/output/images/avatar.png</logo>
-    <icon>/Users/hidarioosakai/OneDrive/Documents/Root-Blog/output/favicon.ico</icon>
+    <link rel="alternate" href="https://wanquanojbk.com"/>
+    <link rel="self" href="https://wanquanojbk.com/atom.xml"/>
+    <logo>https://wanquanojbk.com/images/avatar.png</logo>
+    <icon>https://wanquanojbk.com/favicon.ico</icon>
     <rights>All rights reserved 2019, 咚咚宇宙</rights>
     <entry>
         <title type="html"><![CDATA[Git]]></title>
-        <id>/Users/hidarioosakai/OneDrive/Documents/Root-Blog/output/post/git/index.html</id>
-        <link href="/Users/hidarioosakai/OneDrive/Documents/Root-Blog/output/post/git/index.html">
+        <id>https://wanquanojbk.com/post/git</id>
+        <link href="https://wanquanojbk.com/post/git">
         </link>
         <updated>2019-05-16T06:25:33.000Z</updated>
         <summary type="html"><![CDATA[<p>Git 的学习</p>
@@ -782,8 +782,8 @@ git commit -m &quot;dev下开发新功能1.1&quot;
     </entry>
     <entry>
         <title type="html"><![CDATA[Vue-Cli 3 记录一下遇到的坑]]></title>
-        <id>/Users/hidarioosakai/OneDrive/Documents/Root-Blog/output/post/vue-cli-3-ji-lu-yi-xia-yu-dao-de-keng/index.html</id>
-        <link href="/Users/hidarioosakai/OneDrive/Documents/Root-Blog/output/post/vue-cli-3-ji-lu-yi-xia-yu-dao-de-keng/index.html">
+        <id>https://wanquanojbk.com/post/vue-cli-3-ji-lu-yi-xia-yu-dao-de-keng</id>
+        <link href="https://wanquanojbk.com/post/vue-cli-3-ji-lu-yi-xia-yu-dao-de-keng">
         </link>
         <updated>2019-05-16T06:04:15.000Z</updated>
         <summary type="html"><![CDATA[<p>记录下在Vue-Cli 3 中遇到的坑</p>
