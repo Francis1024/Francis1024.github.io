@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wanquanojbk.com</id>
-    <title>小宇同学的小天地</title>
-    <updated>2019-06-27T03:31:42.096Z</updated>
+    <title>咚咚宇宙</title>
+    <updated>2019-06-27T03:35:00.592Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wanquanojbk.com"/>
     <link rel="self" href="https://wanquanojbk.com/atom.xml"/>
     <logo>https://wanquanojbk.com/images/avatar.png</logo>
     <icon>https://wanquanojbk.com/favicon.ico</icon>
-    <rights>All rights reserved 2019, 小宇同学的小天地</rights>
+    <rights>All rights reserved 2019, 咚咚宇宙</rights>
     <entry>
         <title type="html"><![CDATA[Git]]></title>
         <id>https://wanquanojbk.com/post/git</id>
